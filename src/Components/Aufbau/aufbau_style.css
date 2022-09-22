@@ -1,0 +1,50 @@
+.aufbau {
+	margin-top: 50px;
+	text-align: center;
+	max-width: 800px;
+	
+	margin: 20px auto;
+}
+
+.aufbau--image {
+	
+	box-shadow: 0 0 4px rgb(159, 18, 121);
+	width: 800px;
+	max-width: 100%;
+	margin:0 auto;
+	height: 400px;
+	object-fit: cover;
+	border-radius: 6%;
+	object-position: 0% 40%;
+}
+
+.aufbau-subtitle {
+	margin: 40px 0;
+}
+
+.aufbau-row {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.aufbau--text--column {
+	width: 40%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.part-text {
+	width: 100%;
+}
+
+.arrow-down {
+	width: 60px;
+	padding: 20px
+}
+.aufbau--divider {
+	border-bottom: 2px dotted white;
+	width: 75%;
+	margin: 20px auto;
+}

@@ -1,0 +1,68 @@
+@font-face {
+	font-family: Amita-Bold;
+	src: url('./assets/Fonts/Amita-Bold.ttf');
+}
+@font-face {
+	font-family: Amita-Regular;
+	src: url('./assets/Fonts/Amita-Regular.ttf');
+}
+@font-face {
+	font-family: Cinzel-Bold;
+	src: url('./assets/Fonts/cinzel.bold.ttf');
+}
+@font-face {
+	font-family: Cinzel-Decorative-Bold;
+	src: url('./assets/Fonts/cinzel.decorative-bold.ttf');
+}
+@font-face {
+	font-family: Sarala-Regular;
+	src: url('./assets/Fonts/Sarala-Regular.ttf');
+}
+@font-face {
+	font-family: Sarala-Bold;
+	src: url('./assets/Fonts/Sarala-Bold.ttf');
+}
+
+
+
+
+body {
+	overflow-x: hidden;
+	margin: 0;
+	
+		background:
+			linear-gradient(rgb(1, 0, 0), transparent),
+			linear-gradient(to top left, rgb(0, 0, 0), transparent),
+			linear-gradient(to top right, rgb(11, 1, 9), transparent),
+			linear-gradient(to bottom right, rgb(6, 1, 1), transparent),
+			radial-gradient(circle at 90% 30%,rgb(23, 2, 16), rgba(76, 0, 255, 0));
+			background-blend-mode: screen;
+	
+}
+
+h1, h2 {
+	color: rgb(255, 238, 238);
+	font-family: Cinzel-Bold;
+}
+
+h3, h4, h5 {
+	color: rgb(255, 209, 221);
+	font-family: Sarala-Bold;
+}
+
+p, button, li {
+	color: rgb(245, 223, 229);
+	font-family: Sarala-Regular;
+}
+
+
+.divider {
+	border-bottom: 2px solid rgb(255, 214, 225);
+	width: 70%;
+	margin: 50px auto;
+	box-shadow: 0 0 10px white;
+}
+
+.align-center {
+	align-items: center;
+}

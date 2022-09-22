@@ -1,0 +1,19 @@
+.footer {
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 50px;
+}
+
+.social-media-icon {
+	height: 50px;
+	width: 50px;
+	margin: auto;
+	padding: 30px;
+	cursor: pointer;
+	filter: invert(100%);
+	transition: 1s;
+}
+.social-media-icon:hover {
+	scale: 1.2
+}
